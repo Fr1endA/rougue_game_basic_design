@@ -13,6 +13,7 @@ public class Player extends Character {
     }
     public void recover(){
         this.cur_hp=hp;
+        this.live=1;
     }
 //    public void attack(Character character){
 //        character.cur_hp-=this.attack_power  *  (1-character.resistanceRate(character.armor));

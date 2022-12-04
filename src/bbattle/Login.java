@@ -11,6 +11,7 @@ public class Login {
         String name=scanner.nextLine();
         Player role =new Player(name);
         System.out.println("hello "+name+"£¡»¶Ó­À´µ½Ûº¶¼Ò¹ÓÎÂ¼£¡£¡£¡");
+
         return role;
     }
     public void load(){

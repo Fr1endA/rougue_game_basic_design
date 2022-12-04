@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 // character.game.Character 中含所有参加对战的角色，包括：玩家、鬼魂（普通和精英）等
 public class Character implements Mortal{
-    String name="Untitled";
+    public String name="Untitled";
     public int attack_power=80;
     public int magic_power=30;
     public int armor=30;
