@@ -34,6 +34,7 @@ public void reward(Ghost ghost,Player player){
 //        test_ghost.showHp();
 //        test_ghost.attack(player);
 //        player.showHp();
+
     }
     public void testAttack(){
         int chapter=1;
